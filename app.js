@@ -67,7 +67,7 @@ app.post("/api/auth/register", async (req, res) => {
 // LOGIN
 app.post("/api/auth/login", async (req, res) => {
 
-    res.setHeader('Access-Control-Allow-Origin', 'localhost:4200');
+    res.setHeader('Access-Control-Allow-Origin', '*');
     res.setHeader('Access-Control-Allow-Headers', 'X-Requested-With,content-type');
 
     // Our login logic starts here
